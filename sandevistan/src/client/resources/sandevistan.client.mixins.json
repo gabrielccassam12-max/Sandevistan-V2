@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "com.sandevistan.mixin.client",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["EntityGlowMixin", "EntityInterpolationMixin", "LivingInterpolationMixin"],
+  "injectors": { "defaultRequire": 1 }
+}

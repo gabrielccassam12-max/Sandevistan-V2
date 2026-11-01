@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "sandevistan",
+  "version": "${version}",
+  "name": "Sandevistan – Hyper Speed",
+  "description": "Implante Sandevistan inspirado em Cyberpunk 2077: você corre livre enquanto o resto do mundo quase para no tempo.",
+  "authors": ["Você"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.sandevistan.Sandevistan"],
+    "client": ["com.sandevistan.client.SandevistanClient"]
+  },
+  "mixins": [
+    "sandevistan.mixins.json",
+    { "config": "sandevistan.client.mixins.json", "environment": "client" }
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

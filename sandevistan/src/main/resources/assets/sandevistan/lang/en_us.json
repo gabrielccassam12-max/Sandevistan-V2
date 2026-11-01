@@ -1,0 +1,10 @@
+{
+  "key.sandevistan.toggle": "Toggle Sandevistan",
+  "key.categories.sandevistan": "Sandevistan",
+  "hud.sandevistan.ready": "SANDEVISTAN [%s] READY",
+  "hud.sandevistan.active": "SANDEVISTAN %ss",
+  "hud.sandevistan.cooldown": "RECHARGING %ss",
+  "hud.sandevistan.infinite": "SANDEVISTAN ∞",
+  "hud.sandevistan.online": "SANDEVISTAN ONLINE",
+  "message.sandevistan.cooldown": "Sandevistan is recharging"
+}
